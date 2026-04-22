@@ -2,11 +2,13 @@ package OOP;
 
 public class Main {
 	public static void main(String[] arg) {
-		Man man = new Man();
-		man.name = "Петро";
-		man.age = 25;
+		Dog dog = new Dog();
+		dog.nickname = "Тузік";
+		dog.breed = "Дворняга";
+		dog.speed = 1;
 		
-		System.out.println(man.name);
-
-	}
+		String info = dog.info();
+		System.out.print(info);
+		
+		}
 }
