@@ -2,13 +2,13 @@ package OOP;
 
 public class Main {
 	public static void main(String[] arg) {
-		Dog dog = new Dog();
-		dog.nickname = "Тузік";
-		dog.breed = "Дворняга";
-		dog.speed = 1;
-		
-		String info = dog.info();
-		System.out.print(info);
-		
-		}
+		Rect rect = new Rect();
+		rect.setDimention(4, 4);
+		int a = rect.perimeter();
+		int b = rect.square();
+		System.out.print(a);
+		System.out.print(b);
+
+
+	}
 }
