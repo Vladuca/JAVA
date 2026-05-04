@@ -2,13 +2,10 @@ package OOP;
 
 public class Main {
 	public static void main(String[] arg) {
-		Dog dog = new Dog();
-		dog.nickname = "Тузік";
-		dog.breed = "Дворняга";
-		dog.speed = 1;
+	    Monster[] monsters = {new Monster(3),new Monster(3,2),new Monster(3,3,3)};
+	    for(Monster monster : monsters) {
+	    	monster.show();
+	    }
 		
-		String info = dog.info();
-		System.out.print(info);
-		
-		}
+	}
 }
